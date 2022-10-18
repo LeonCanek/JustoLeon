@@ -3,6 +3,7 @@ package t2_herencia;
 import javax.xml.transform.Source;
 import java.sql.SQLOutput;
 
+/*
 class E{
     static{
         System.out.println("E.<clinit>");
@@ -41,3 +42,4 @@ class F extends E.X{
 public class Caso4 {
     public static void main(String[] args){new F();}
 }
+*/
