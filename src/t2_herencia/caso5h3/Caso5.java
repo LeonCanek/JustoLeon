@@ -1,4 +1,5 @@
-package t2_herencia;
+package t2_herencia.caso5h3;
+
 
 class G5 { //G5
         static{
@@ -33,4 +34,9 @@ class G5 { //G5
             }
         }
     }
+public class Caso5{
+    public static void main(String[] args){
+        new H5();
+    }
+}
 

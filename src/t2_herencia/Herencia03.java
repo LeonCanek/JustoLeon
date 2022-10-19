@@ -1,9 +1,11 @@
 package t2_herencia;
 
+
+
 public class Herencia03 {
     public static void main(String[] args) {
         // 1) Hacer ejemplos de instanciación para cada clase. YAAAAA
-            A5 A= new A5();
+          /*  A5 A= new A5();
             B5 b1= new B5();
             new B5.X();
             C5 C = new C5();
@@ -67,6 +69,6 @@ public class Herencia03 {
 //            Se ejecuta el static de K5.Y y sube a su padre J5.X e imprime su bloque de instancia J5.X y baja e imprime el bloque de inicializacion de Y
 
 
-
+*/
     }
 }

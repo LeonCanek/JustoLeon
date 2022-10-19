@@ -1,4 +1,4 @@
-package t2_herencia;
+package t2_herencia.caso1h3;
 
 interface I5 {  // I5
 
@@ -29,3 +29,8 @@ interface I5 {  // I5
             }
         }
     }
+public class Caso1{
+     public static void main(String[] args){
+     new B5.X();
+     }
+}

@@ -1,4 +1,4 @@
-package t2_herencia;
+package t2_herencia.caso6h3;
 
 class J5 {
     static{
@@ -34,3 +34,8 @@ class J5 {
         }
     }
 
+public class Caso6{
+    public static void main(String[] args){
+        new K5();
+    }
+}

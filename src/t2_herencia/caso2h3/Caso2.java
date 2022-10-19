@@ -1,4 +1,6 @@
-package t2_herencia;
+package t2_herencia.caso2h3;
+
+
 
 class C5 { //C5
         static{
@@ -17,3 +19,8 @@ class C5 { //C5
         }
     }
 
+public class Caso2{
+    public static void main(String[] args){
+        new C5.X();
+    }
+}

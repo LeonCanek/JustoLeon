@@ -1,4 +1,6 @@
-package t2_herencia;
+package t2_herencia.caso4h3;
+
+
 
 class E5 { //E5
         static{
@@ -16,14 +18,19 @@ class E5 { //E5
             }
         }
     }
+class F5 extends E5.X {  //F5->E5.X
 
-    class F5 extends E5.X {  //F5->E5.X
-
-        static{
-            System.out.println("Static F5");
+    static {
+        System.out.println("Static F5");
         }
         {
             System.out.println("Bloque de inicializacion de F5");
         }
+}
+
+public class Caso4{
+    public static void main(String[] args){
+        new F5();
     }
+}
 
