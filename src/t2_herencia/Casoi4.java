@@ -1,8 +1,5 @@
 package t2_herencia;
 
-import javax.xml.transform.Source;
-import java.sql.SQLOutput;
-
 /*
 class E{
     static{

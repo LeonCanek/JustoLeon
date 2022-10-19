@@ -75,11 +75,49 @@ class E {
         static{
             System.out.println("Bloqye statico de la clase E.X");
         }
+
         {
             System.out.println("Bloque de instancia E.X");
         }
+    }
+}
+class F extends  E.X {
+    static{
+        System.out.println("Bloque statico de la clase F");
+    }
+    {
+        System.out.println("Bloque de instancia F");
+    }
+    F(){ new E().super();}
+    void m(){
 
     }
 }
+
+//Caso 5
+class G {
+    static {
+        System.out.println("Bloque statico de la clase G");
+    }{
+        System.out.println("Bloque de instancia G");
+    }
+    class X {
+        static{
+            System.out.println("Blpque statico de la clase G.X");
+        }
+        {
+            System.out.println("Bloque de instancia G.X");
+        }
+    }
+}
+class H extends  G {
+    static{
+        System.out.println("Bloque statico de la clase G.Y");
+    }
+    {
+        System.out.println("Bloque de intancia G.Y");
+    }
+}
 public class Herencia01 {
+
 }
