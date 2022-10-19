@@ -1,0 +1,2 @@
+Duda por que en la clase Default2 en la linea 28 no imprime Adios?
+Donde encuentro la clase para Default3
