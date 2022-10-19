@@ -21,6 +21,11 @@ class C5 { //C5
 
 public class Caso2{
     public static void main(String[] args){
-        new C5.X();
+        //new C5.X();
+        C5 up2 = new C5.X();//Upcasting
+        C5.X up22 = (C5.X)up2;//Downcasting
+
+
+
     }
 }

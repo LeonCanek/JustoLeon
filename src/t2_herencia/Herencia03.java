@@ -58,9 +58,7 @@ public class Herencia03 {
 //            Se ejecuta el metodo static de la clase X y de va su padre C5 donde imprime su bloque de instancia de C5 y baja ala creacion del bloque de instancia de C5.X
 //            Se ejecuta el metodo statico de D5 y sube a su clase padre A5 y ejecuta su bloque de instancia y baja a D5 e imprime su bloque de instancia de D5
 //            se ejecuta el metodo static D5.X y se va a su calse padre D5 imprime el bloque de instancia y baja a D5.X e imprime su bloque de instancia
-//            Se ejecuta el static de E5 y de ahi su bloque de instancia
-//            Se ejecuta el static de E5.X y de ahi su bloque de instancia
-//            Se ejecuta el static de F5 y de ahi sube al padre E5.X e improme el bloque de instancia de E5.X y baja a ejecutar el bloque de instancia de F5
+//
 //            Se ejecuta el static de G5 y su bloque de instancia
 //            Se ejecuta el static G5.X y su bloque de instancia
 //            Se ejecuta el static de la clase J5 y su bloque de instancia
