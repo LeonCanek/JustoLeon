@@ -28,9 +28,12 @@ class D5 extends A5 { //D5->A5
     }
 public class Caso3 {
     public static void main(String[] args) {
-        new D5.X();
-        // A a= new D();
-        // D.X dx = new D().new X();
+        //new D5.X();
+        D5 up3 = new D5.X();//Upscasting
+        D5.X up33 = (D5.X)up3;//Downcasting
+
+
+
 
 
     }

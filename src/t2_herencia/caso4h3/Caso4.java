@@ -30,7 +30,10 @@ class F5 extends E5.X {  //F5->E5.X
 
 public class Caso4{
     public static void main(String[] args){
-        new F5();
+        //new F5();
+        E5.X up4 = new F5();//Upcasting
+        E5.X up44 = (E5.X)up4;//Downcasting
+
     }
 }
 

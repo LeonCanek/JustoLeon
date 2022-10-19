@@ -31,6 +31,9 @@ interface I5 {  // I5
     }
 public class Caso1{
      public static void main(String[] args){
-     new B5.X();
+     //new B5.X();
+     A5 up1 = new B5.X();//Upcasting
+     B5.X up11= (B5.X)up1;//Downcasting
+
      }
 }

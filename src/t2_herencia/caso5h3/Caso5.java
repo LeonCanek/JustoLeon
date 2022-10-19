@@ -36,7 +36,11 @@ class G5 { //G5
     }
 public class Caso5{
     public static void main(String[] args){
-        new H5();
+        //new H5();
+        G5 up5 = new H5();//Upcasting
+        H5 up55 = (H5)up5;//Downcasting
+
+
     }
 }
 
