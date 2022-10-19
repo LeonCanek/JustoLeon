@@ -1,10 +1,7 @@
+/*
 package t2_herencia.casoi3;
 
-
-
-
-
-class D extends A {  //D-> A
+class D extends t2_herencia.A { // D-> A
         static{
             System.out.println("Bloque statico de la clase D");
         }
@@ -25,3 +22,4 @@ public class Caso3 {
 
         }
 }
+*/

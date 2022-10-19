@@ -1,6 +1,6 @@
-package t2_herencia;
+package t2_herencia.casoi4;
 
-/*
+
 class E{
     static{
         System.out.println("E.<clinit>");
@@ -36,7 +36,7 @@ class F extends E.X{
     }
 }
 
-public class Caso4 {
+public class Casoi4 {
     public static void main(String[] args){new F();}
 }
-*/
+
