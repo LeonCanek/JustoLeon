@@ -119,5 +119,8 @@ class H extends  G {
     }
 }
 public class Herencia01 {
+    public static void main(String[] args){
+
+    }
 
 }
