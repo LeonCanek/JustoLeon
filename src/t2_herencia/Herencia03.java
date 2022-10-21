@@ -1,7 +1,6 @@
 package t2_herencia;
 
 
-
 public class Herencia03 {
     public static void main(String[] args) {
         // 1) Hacer ejemplos de instanciación para cada clase. YAAAAA

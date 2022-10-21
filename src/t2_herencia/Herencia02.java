@@ -1,23 +1,27 @@
 package t2_herencia;
+
 class SuperExterna {
     class Interna {
-        void m(){
+        void m() {
             System.out.println("Super");
         }
     }
 }
-class SubExterna extends  SuperExterna{
-    class Interna{
-        void m(){
+
+class SubExterna extends SuperExterna {
+    class Interna {
+        void m() {
             System.out.println("Sub");
         }
-        void a(){
+
+        void a() {
             System.out.println("Augusto");
         }
     }
 }
+
 public class Herencia02 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         SuperExterna.Interna sei = new SuperExterna().new Interna();
         sei.m();
 
